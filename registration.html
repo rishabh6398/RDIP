@@ -1,0 +1,73 @@
+<!DOCTYPE>
+<html>
+<head>
+  <style>
+     img{
+     float:left;
+    }
+  ul{
+     list-style-type:none;
+     margin:0;
+     padding:0px;
+     overflow:hidden;
+     background-color:black;
+    }
+  li{
+     float:left;
+    }
+     li a{
+         display: block;
+         color:blue;
+         font-size:20px;
+         text align:center;
+         padding:10px 20px;
+         text-decoration:none;
+        }
+  .active{
+          background-color:brightblue;
+          color:white;
+         }
+  li a:hover{
+         background-color:brightblue;
+         color:white;
+            }
+table,th,td{
+       border:1px solid black;
+       border-collapse:collapse;
+           }
+         </style>
+<body>
+  <h1 style="text-align:center">REGISTRATION FORM</h1><br>
+<img src="https://www.iiit.ac.in/img/iiit-new.png" alt="https://www.iiit.ac.in/img/iiit-new.png" width="100" hight="100"/> <h2 style="float:right"><a href="https://serc.iiit.ac.in/rdip"> RDIP</h2><br><br><br>
+<ul>
+    <li><a class="active"herf="#home>HOME</a></li>
+    <li><a href="#HOME">HOME</a></li>
+    <li><a href="file:///D:/intern%20cssprojects/regiatration.html">REGISTRATION</a></li>
+</ul>
+
+<form method="get" action="details.html">
+  First Name :  <input type="text" name="firstname"/><br><br>
+  Last Name  :  <input type="text" name="lastname"/><br><br>
+  Email ID   :  <input type="text" name="email id"/><br><br>
+  Phone no   :  <input type="numbers" name="phone no"/><br><br>
+  <label>
+      Gender:
+  </label>
+  <input type="radio" id="Gender" name="Gender" value="male"/>Male
+  <input type="radio" id="Gender" name="Gender" value="female"/>Female
+  <input type="radio" id="Gender" name="Gender" value="others"/>Others<br><br>
+  <label>
+      Reason for RDIP: 
+  </label>
+  <input type="checkbox" id="Reason for RDIP" name="Reason for RDIP" value="HTML"/>HTML
+  <input type="checkbox" id="Reason for RDIP" name="Reason for RDIP" value="css"/>css
+  <input type="checkbox" id="Reason for RDIP" name="Reason for RDIP" value="javascript"/>Javascript<br><br>
+  College Name:<input type="text" name="college name"/><br><br>
+  <input type="checkbox" name="field name" value="Initial value">I hereby declare above details given by me are true.<br><br>
+  <body style="text-align:left">
+  <button onclick="submit()"<a href="file:///D:/intern%20cssprojects/regiatration.html?firstname=&lastname=&email+id=&phone+no=&college+name=">Submit</a></button>
+  <body style="text-align:right">
+  <button on click="reset()">Reset</button>
+</form>
+</body>
+</html>
